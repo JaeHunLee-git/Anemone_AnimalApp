@@ -27,7 +27,7 @@ public class SecurityConfig {
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception{
 		
-		//필터링 할 uri 명시..
+		//필터링 할 uri 명시
 		httpSecurity
 			.authorizeHttpRequests(
 				(auth) -> auth
