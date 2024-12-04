@@ -55,8 +55,6 @@ dependencies {
 	implementation 'com.sun.xml.ws:jaxws-rt:2.3.3'
 	implementation 'com.sun.xml.messaging.saaj:saaj-impl:1.5.3'
 	implementation 'com.sun.xml.bind:jaxb-impl:2.3.3'	
-	//몽고 DB 추가 
-	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:3.2.5'
 
 	//AOP 추가
 	implementation 'org.springframework.boot:spring-boot-starter-aop:3.2.5'
