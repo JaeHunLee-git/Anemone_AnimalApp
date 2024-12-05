@@ -51,7 +51,7 @@ public class SecurityConfig {
 		httpSecurity
 			.formLogin((auth)->
 				auth.loginPage("/member/login")
-				.successHandler(loginEventHandler()) //개발자가 정의한 핸들러 등록.
+				.successHandler(loginEventHandler()) //개발자가 정의한 핸들러 등록
 				.loginProcessingUrl("/member/login")
 				.usernameParameter("uid")
 				.passwordParameter("password")
