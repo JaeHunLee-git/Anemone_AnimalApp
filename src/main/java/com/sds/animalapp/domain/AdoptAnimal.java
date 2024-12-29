@@ -8,7 +8,7 @@ public class AdoptAnimal {
 	private int member_idx;
 	private int animal_idx;
 
-	// 추가.
+	// 추가
 	private int adopt_animal_idx;
 	private String kindCd;
 	private String popfile;
